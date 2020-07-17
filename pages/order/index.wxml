@@ -1,0 +1,24 @@
+<Tabs tabs="{{tabs}}" binditemChange="handleItemChange">
+    <view class="order_main">
+        <view
+        class="order_item"
+        wx:for="{{orders}}"
+        wx:key="goods_id"
+        >
+            <view class="order_no_row">
+                <text class="order_no_text">订单编号:</text>
+                <text class="order_no_value">HMSP{{item.add_time}}</text>
+            </view>
+            <view class="order_time_row">
+                <text class="order_time_text">商品名称:</text>
+                <text class="order_time_name">{{item.goods_name}}</text>
+            </view>
+            <view class="order_price_row">
+                <text class="order_price_text">订单价格:</text>
+                <text class="order_price_money">￥{{item.goods_price*item.num}}</text>
+            </view>
+        </view>
+    </view>
+</Tabs>
+
+  

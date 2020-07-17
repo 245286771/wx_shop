@@ -1,0 +1,104 @@
+page {
+  background-color: #f4f4f4;
+  color: #333;
+}
+.user_info_wrap {
+  height: 45vh;
+  position: relative;
+}
+.user_info_wrap .user_image_warp {
+  position: relative;
+}
+.user_info_wrap .user_image_warp .user_bg {
+  height: 50vh;
+  filter: blur(10rpx);
+}
+.user_info_wrap .user_image_warp .user_info {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30%;
+  text-align: center;
+}
+.user_info_wrap .user_image_warp .user_info image {
+  border-radius: 50%;
+  width: 150rpx;
+  height: 150rpx;
+}
+.user_info_wrap .user_image_warp .user_info .user_name {
+  color: white;
+  padding-top: 20rpx;
+}
+.user_info_wrap .user_button {
+  color: red;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translateX(-50%);
+  border: 1px solid red;
+}
+.user_info_wrap .user_button navigator {
+  padding: 20rpx 40rpx;
+}
+.user_main {
+  width: 90%;
+  position: relative;
+  margin: 0 auto;
+  top: -20rpx;
+}
+.user_main .history_wrap {
+  display: flex;
+  background-color: white;
+  text-align: center;
+  padding: 10rpx 0;
+}
+.user_main .history_wrap navigator {
+  flex: 1;
+}
+.user_main .history_wrap navigator .his_num {
+  color: var(--themeColor);
+}
+.user_main .order_wrap {
+  margin-top: 20rpx;
+  background-color: white;
+}
+.user_main .order_wrap .order_title {
+  padding: 20rpx 0;
+  font-size: 28rpx;
+  border: 1px solid #f4f4f4;
+  padding-left: 10rpx;
+}
+.user_main .order_wrap .order_row {
+  display: flex;
+  padding: 10rpx 0;
+}
+.user_main .order_wrap .order_row .order_content {
+  flex: 1;
+  text-align: center;
+}
+.user_main .order_wrap .order_row .order_content .iconfont {
+  font-size: 40rpx;
+  color: var(--themeColor);
+}
+.user_main .order_address {
+  margin-top: 20rpx;
+  background-color: white;
+  padding: 20rpx;
+}
+.user_main .app_info_wrap {
+  margin-top: 20rpx;
+  background-color: white;
+}
+.user_main .app_info_wrap .app_info_item {
+  padding: 20rpx;
+  border-bottom: 1px solid #f4f4f4;
+}
+.user_main .app_info_wrap .app_info_contact {
+  display: flex;
+  justify-content: space-between;
+}
+.user_main .order_recommend {
+  margin-top: 20rpx;
+  background-color: white;
+  padding: 20rpx;
+}
